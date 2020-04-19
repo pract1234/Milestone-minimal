@@ -1,0 +1,150 @@
+html{
+  color: #2e2d2c;
+  font-family: 'Baskervville', serif;
+
+}
+section{
+  width:1200px;
+}
+
+#about{
+  height: 800px;
+  background-color: #FF9D76;
+}
+#work{
+  height:700px;
+  background-color: #f2e4df;
+}
+#contact{
+  height:500px;
+  width:1200;
+  background-color: brown;
+}
+.fullwidth{
+    width:1200px;
+    margin:0;
+    float:left;
+}
+.halfwidth{
+    width:600px;
+    float:left;
+    margin:0;
+}
+.thirdwidth{
+    width:400px;
+    float:left;
+    margin:0;
+}
+header {
+  background: #FFDBC5;
+  margin:0;
+  height: 700px;
+  width:1200px;
+  background-size:cover;
+}
+header h1 {
+    padding: 90px 0 0 25px;
+    font-size:30px;
+    font-family: 'Baskervville', serif;
+    line-height: 1:
+    color: green;
+    margin: 0;
+  }
+header h2{
+    padding: 50px 0px 0px 55px;
+    font-size:64px;
+    font-family: 'Baskervville', serif;
+    line-height: 1:
+    color: grey;
+    margin: 0;
+    text-align: left;
+  }
+header p{
+    padding-left: 50px;
+    padding-top: 0;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1;
+
+
+}
+nav {
+    float:right;
+    padding: 60px 25px;
+  }
+nav ul li {
+    display: inline-block;
+  }
+nav ul li a {
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: 'Baskervville', serif;
+    text-decoration: none;
+    padding-left: 60px;
+    color: #2e2d2c;
+  }
+#about .full-width{
+      padding: 60px 0;
+      margin: 0;
+}
+#about img{
+    padding: 145px 425px 0 425px;
+    text-align: center;
+}
+#about h2 {
+    font-family: 'Baskervville', serif;
+    font-size: 36px;
+    text-align: center;
+}
+#about p {
+    font-size:21;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+}
+#work .fullwidth {
+    margin: 0;
+}
+#work img{
+  padding-left: 30px;
+  padding-top: 215px;
+  height: 200px;
+  width: 330px;
+}
+#work h3 {
+  font-size:20px;
+  font-family: 'Baskervville', serif;
+  text-decoration: none;
+  padding-left: 40px;
+}
+#work p{
+  text-align: center;
+  padding-left: 40px;
+}
+#contact img{
+  padding-left: 60px;
+}
+#contact .full-width {
+    padding: 30px 0;
+    margin: 0;
+}
+#contact h2, h3{
+    font-size 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Baskervville', serif;
+
+}
+#contact p{
+  text-align: center;
+  line-height: 1.5;
+}
+footer{
+  width: 1200px;
+
+}
+footer p{
+  font-family: 'Open Sans', sans-serif;
+}
