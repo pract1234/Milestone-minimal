@@ -5,7 +5,6 @@ html{
 }
 section{
   width:100%;
-  max-width: 1366px;
   margin: auto;
 }
 
@@ -93,19 +92,20 @@ nav ul li a {
     color: orange;
   }
 #about .full-width{
-      padding: 6rem 0;
+      padding: 4rem 0;
       margin: 0;
       display:flex;
       justify-content: center;
-        align-items: : center;
-        text-align: center;
+      align-items: center;
+      text-align: center;
+
 }
+
 #about img{
-    padding: 20.45rem 0 0 39rem;
+    width:25%;
     margin-left: 2rem;
     text-align: center;
-    height:40%;
-
+    padding: 15% 0 0 35%;
 }
 
 #about h2 {
@@ -126,7 +126,7 @@ nav ul li a {
 }
 #work img{
   padding-left: 3rem;
-  padding-top: 3.15rem;
+  padding-top: 33%;
   height: 20rem;
   width: 30rem;
 }
@@ -141,7 +141,8 @@ nav ul li a {
   padding-left: 4rem;
 }
 #contact img{
-  padding-left: 5rem;
+
+  padding-left: 15%;
 }
 #contact .full-width {
     padding: 3rem 0;
@@ -150,7 +151,7 @@ nav ul li a {
 #contact h2, h3{
     font-size: 2rem;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 10%;
     font-family: 'Baskervville', serif;
 }
 
@@ -174,5 +175,16 @@ header h4{
     color: grey;
     margin: 0;
     text-align: left;
-
+    animation-name: moveinNow;
+    animation-duration: 2.5s;
+  }
+  @keyframes moveinNow {
+    0%{
+      opacity: 0;
+      transform: translateY(-30px)rotate(180deg);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0)rotate(0);
+    }
   }
