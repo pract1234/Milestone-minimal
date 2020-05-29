@@ -2,6 +2,7 @@ html{
   color: #2e2d2c;
   font-family: 'Baskervville', serif;
   font-size: 62.5%;
+  margin: 0 auto;
 }
 section{
   width:100%;
